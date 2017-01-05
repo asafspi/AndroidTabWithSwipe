@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "inducesmile.com.androidtabwithswipe"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.0'
+//    compile 'com.android.support:cardview-v7:21.0.+'
+    compile project(':DailymotionWebSDK')
+    compile files('libs/picasso-2.5.2.jar')
+    compile 'com.google.android.gms:play-services:7.8.0'
+    compile 'com.android.support:design:22.2.0'
+    compile files('libs/mobilecore_V1.1.jar')
+    compile files('libs/StartAppInApp-3.2.1.jar')
+}

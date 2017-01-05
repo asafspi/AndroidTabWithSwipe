@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!-- Search, should appear as action button -->
+    <!--<item android:id="@+id/action_search"-->
+        <!--android:icon="@drawable/abc_ic_search_api_mtrl_alpha"-->
+        <!--android:title="@string/action_search"-->
+        <!--app:showAsAction="always"  />-->
+
+
+    <item android:id="@+id/action_delete_all" android:title="@string/action_delete_all"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+
+    <item android:id="@+id/share" android:title="@string/share"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/rate" android:title="@string/rate"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"/>
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Daily Player</string>
+    <string name="title_section1">Videos</string>
+    <string name="title_section2">Favorites</string>
+    <string name="title_section3">Rap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_delete_all">Delete all favorites</string>
+    <string name="action_exit">Exit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="movie_tag">1</string>
+    <string name="view_holder_tag">2</string>
+    <string name="empty_favorites">There are no movies\nin your favorites</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+</resources>
